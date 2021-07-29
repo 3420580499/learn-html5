@@ -1,6 +1,6 @@
 # learn-html5
   a html note
-#git相关知识：
+# git相关知识：
   就很离谱,啥时候把master改为main了，害我捣鼓了半天
   从设置中将默认的分支改为master了
   git add .   //将文件添加到暂存区
