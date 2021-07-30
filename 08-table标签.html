@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>cellpadding表示单元格文字与单元格边框的距离</div>
+    <div>cellspacing表示单元格与单元格之间的距离</div>
+    <table align="center" border="1" cellpadding="10" cellspacing="0" width="250">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>小明</td>
+                <td>18</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>小红</td>
+                <td>21</td>
+                <td>女</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>合并表格</div>
+    <table align="center" border="1" cellpadding="10" cellspacing="0" width="250" height="250">
+        <tr>
+            <td></td>
+            <!-- 跨列合并 -->
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- 跨行合并 -->
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
