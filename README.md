@@ -13,7 +13,7 @@
   
   git pull --rebase origin master //解决下面一行代码报错问题   
   
-  git push -u origin master //推送到远程仓库
+  git push -u origin master //推送到远程仓库（ 将本地的master分支的内容推送到远程）
 # 路径
   目录文件夹：就是普通的文件夹，此处指的是html学习这个文件夹   
 
